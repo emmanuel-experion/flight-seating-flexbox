@@ -1,0 +1,70 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(69, 175, 210);
+}
+
+.main-container {
+  background-color: rgb(23, 145, 23);
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-1 {
+  background-color: white;
+  height: 30vh;
+  width: 20vw;
+}
+.section-2 {
+  background-color: white;
+  height: 60vh;
+  width: 20vw;
+}
+
+.section-3 {
+  background-color: white;
+  height: 60vh;
+  width: 20vw;
+}
+
+.section-4 {
+  background-color: white;
+  height: 30vh;
+  width: 20vw;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.row-2 {
+  display: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid-seat {
+  background-color: rgb(23, 145, 23);
+  height: 10vh;
+  width: 17.5vw;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: center;
+}
+.seat {
+  margin: 1em 1em 0 1em;
+  border-radius: 10px;
+  background-color: rgb(23, 145, 23);
+  height: 5vh;
+  width: 5vw;
+}
